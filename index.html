@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
 
   <title>Frontend Mentor | Single Price Grid Component</title>
 
@@ -15,19 +16,20 @@
 <body>
 
   <div class="wrapper">
-    <div class="row">
-      <header class="header">
-        <h1 class="header__title">Join our community</h1>
-        <h3 class="header__suntitle">30-day, hassle-free money back guarantee</h3>
-        <p class="header__text">Gain access to our full library of tutorials along with expert code reviews.
-          Perfect for any developers who are serious about honing their skills.</p>
-      </header>
-    </div>
+
+    <header class="header">
+      <h1 class="header__title">Join our community</h1>
+      <h3 class="header__subtitle">30-day, hassle-free money back guarantee</h3>
+      <p class="header__text">Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.</p>
+    </header>
+
     <div class="row">
       <div class="col">
         <section class="price">
           <h3 class="price__title">Monthly Subscription</h3>
-          <p class="price__price">&dollar;29 <span>per month</span></p>
+          <p class="price__price"><span class="price__price--big">&dollar;29</span> <span
+              class="price__price--variation">per month</span></p>
           <p class="price__text">Full access for less than &dollar;1 a day</p>
           <button class="button">Sign Up</button>
         </section>
@@ -47,14 +49,15 @@
         </section>
       </div>
     </div>
+    <footer class="footer">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Christian Gómez</a>.
+      </p>
+    </footer>
   </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Christian Gómez</a>.
-    </p>
-  </footer>
+
 </body>
 
 </html>
